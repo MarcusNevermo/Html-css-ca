@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Game selling page">
+    <meta name="description" content="Games, selling, page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamehub</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/29b9e20529.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="container">
+          <div>
+          <a href="index.html"><img src="/images/GameHub_Logo-new.png" class="nav-logo"></a>
+        </div>
+        <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu"/>
+           <ul>
+                <li class="games-header"><a href="game-list.html">Games</a></li>
+                <li class="contact-header"><a href="contact.html">Contact</a></li>
+                <li class="about-header"><a href="about.html">About</a></li>   
+                <label for="shopping-cart"><i class="fa-solid fa-cart-shopping"></i></label> 
+           </ul>     
+        </nav>
+    </header>
+    <main class="w_checkout-page">
+        <h1>1. Shipping info</h1>
+        <section class="ship-inf">
+            <h2>Contact Information</h2>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+            <label for="phone">Phone</label>
+            <input type="phone" id="phone" name="phone" />
+            <h2>Delivery Adress</h2>
+            <label for="first-name">First Name</label>
+            <input type="first-name" id="first-name" name="first-name" />
+            <label for="last-name">Last Name</label>
+            <input type="last-name" id="last-name" name="last-name" />
+            <label for="street-adress">Street Adress</label>
+            <input type="street-adress" id="street-adress" name="street-adress" />
+            <label for="postcode">Postcode</label>
+            <input type="postcode" id="postcode" name="postcode" />
+            <label for="city">City</label>
+            <input type="city" id="city" name="city" />
+            <label for="country">Country</label>
+            <input type="country" id="country" name="country" />
+        </section>
+        <section>
+            <h1>2. Order Review</h1>
+            <h3>Qty : 1</h3>
+            <h3>Price : $39.99</h3>
+            <h3>Subtotal : $39.99</h3>
+             <div>
+                <img src="/images/Ping-Pong.jpg" class="pp-checkout">
+             </div>
+             <p>Ping Pong Championship</p>
+        </section>
+        <section>
+            <h1>Payment Method</h1>
+            <h3>Choose payment method</h3>
+            <div>
+                <label for="visa"><i class="fa-brands fa-cc-visa"></i></label>
+                <input type="checkbox">
+                <label for="mastercard"><i class="fa-brands fa-cc-mastercard"></i></label> 
+                <input type="checkbox">
+                <label for="paypal"><i class="fa-brands fa-cc-paypal"></i></label>
+                <input type="checkbox">
+            </div>
+            <h3>Credit Card</h3>
+            <label for="card-number">Card number</label>
+            <input type="card-number" id="card-number" name="card-number" />
+            <label for="expiration-date">Expiration date</label>
+            <input type="expiration-date" id="expiration-date" name="expiration-date" />
+            <label for="cvv">CVV</label>
+            <input type="cvv" id="cvv" name="cvv" />
+        </section>
+        <section>
+            <h1>Order Summary</h1>
+            <p>1x Ping Pong Championship</p>
+            <p>$39.99</p>
+            <p>Subtotal</p>
+            <p>$39.99</p>
+            <p>Shipping</p>
+            <p>FREE</p>
+            <p class="bold-text">Total</p>
+            <p class="bold-text">$39.99</p>
+            <a href="/checkout-success.html" class="cta">Checkout now</a>
+        </section>
+    </main>
+</body>
+<footer>
+    <div>
+        <a href="index.html"><img src="/images/GameHub_Logo-new.png" class="nav-logo"></a>
+    </div>
+  </footer>
+</html>

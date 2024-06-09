@@ -1,0 +1,330 @@
+.container {
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ul {
+    display: none;
+    position: fixed;
+    top: 45px;
+    background: #5359CB;
+    z-index: 1000;
+    right: 0px;
+    padding: 20px 30px;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ ul {
+    display: block;
+}
+
+header,
+footer {
+  background-color: #3F46F1;
+  color: #fff;
+}
+
+.nav-logo {
+    max-width: 150px;
+}
+
+
+footer {
+    background: #3F46F1;
+    padding: 20px;
+    text-align: center;
+    margin-top: 5px
+}
+
+nav li {
+    text-decoration: none;
+    display: block;
+    list-style: none; display: inline-block;
+    font-weight: bold;
+    margin-right: 150px;
+    color: #fff;
+}
+
+.li-footer {
+    color: #fff;
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.pay-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: x-large;
+    padding-right: 50px;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.products { 
+    background-color: #fbfbfb;
+ }
+ 
+ .cta-small {
+  font-size: 1em;
+  padding: 5px 20px;
+}
+
+
+.cta {
+    background-color: #3F46F1;
+    color: #fff;
+    border-radius: 15px;
+    display: grid;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+ }
+
+
+.products { 
+    background-color: #fbfbfb;
+ }
+
+
+/* Home Page*/
+
+h1 {
+    text-align: center;
+}
+
+
+.img-home {
+    border-radius: 30px;
+    width: 250px;
+}
+
+img {
+  width: 100%;
+}
+    
+
+.explore-img {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.cta-home{
+    max-width: 200px;
+    font-size: 1.2em;
+    padding: 5px 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.foot-home {
+    background: #3F46F1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 7em;
+}
+
+
+
+/* Game List*/
+
+
+.list-h1 {
+    font-size: 3.5em;
+}
+
+.product-list {
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10em;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-game {
+justify-content: center;
+}
+
+
+/* Product Page*/
+  
+
+.ping-pong-specific {
+    max-width: 1800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.info-on__pp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-specific-img {
+   max-width: 500px;
+   margin-left: 100px;
+   margin-top: 30px;
+   margin-right: 50px;
+}
+
+
+.foot-game-spec {
+    background: #3F46F1;
+    padding: 20px;
+    text-align: center;
+    margin-top: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    height: 4rem;
+}
+
+
+.title-1 {
+    margin-left: 10px;
+}
+
+.title-2 {
+    margin-left: 10px;
+}
+
+
+/* Contact Page*/
+
+input, textarea {
+    border: 1px solid #5359CB;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
+
+textarea {
+    height: 100px;
+}
+
+.contact {
+   max-width: 1000px;
+   margin: auto;
+}
+
+
+.form-con {
+    display: flex;
+}
+
+
+.form-con > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+/* Checkout Page*/
+
+.w_checkout-page {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.ship-inf {
+    display: flex;
+    flex-direction: column;
+}
+
+.ship-inf > * {
+    flex: 1;
+}
+
+.pp-checkout {
+    max-width: 100px;
+}
+
+
+label {
+    width: 128px;
+}
+
+
+.bold-text {
+    font-weight: bold;
+}
+
+
+
+/* Checkout Success*/
+
+.check-success {
+  max-width: 1000px;
+  margin: auto;
+  font-size: x-large;
+}
+
+
+/* About Page*/
+
+.text-about {
+    max-width: 700px;
+    margin: auto;
+    font-size: x-large;
+}
+
+
+
+
+
+
+@media (max-width: 900px) {
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  } 
+
+  .ping-pong-specific {
+    display: flex;
+    flex-direction: column
+  }
+
+
+
+}
+
+
